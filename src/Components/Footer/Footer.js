@@ -2,6 +2,7 @@ import React from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { Camera,GitHub,Instagram,Linkedin, Twitter, Youtube } from 'react-feather';
 import './Footer.css'
 
 
@@ -18,11 +19,17 @@ const Footer = () => {
                 <div className="footer-right">
                     <h2>SOCIALlll</h2>
                     
-                      <p><FontAwesomeIcon icon={faUser} /></p>
-                      <p><FontAwesomeIcon icon={faUser} /></p>
-                      <p><FontAwesomeIcon icon={faUser} /></p>
-                      <p><FontAwesomeIcon icon={faUser} /></p>
-                      <p><FontAwesomeIcon icon={faUser} /></p>
+                      <p><Camera /></p>
+                      <p> <Linkedin/></p>
+                      <p> <GitHub/></p>
+                      <p> <Twitter/></p>
+                      <p><Youtube/></p>
+                      <p><Instagram/></p>
+                     
+                     
+                     
+                      
+                      
 
 
                 </div>
