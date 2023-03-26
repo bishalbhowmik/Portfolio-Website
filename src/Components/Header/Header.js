@@ -8,8 +8,12 @@ const Header = () => {
         <div>
             <section className='header-area'>
                 <div className='header-left'>
-                    <img src={bishal} className='w-14 h-14 rounded-full' alt="bishal" />
-                    <h3>BISHAL BHOWMIK</h3>
+                    <div>
+                        <img src={bishal} className='w-14 h-14 rounded-full' alt="bishal" />
+                    </div>
+                    <div>
+                        <h3>BISHAL BHOWMIK</h3>
+                    </div>
                 </div>
                 <div className='header-right'>
                     <ul>

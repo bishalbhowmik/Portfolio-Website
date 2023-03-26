@@ -77,7 +77,7 @@ const Home = () => {
                         <input className='' type="text" id="name" placeholder='Enter Your Name' /><br />
                         <label htmlFor="message">Your Message</label> <br />
                         <textarea name="" id="message" rows="15" placeholder='Your Message'></textarea>
-                      <><input type="submit" value="Submit" /></> 
+                      <input type="submit" value="Submit" />
                     </form>
 
                 </div>

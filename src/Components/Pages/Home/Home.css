@@ -1,4 +1,5 @@
 body{
+    
     text-transform: capitalize;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -6,8 +7,8 @@ body{
 .banner-area {
     /* display: flex; */
     background-image: linear-gradient(rgb(216, 207, 207),white);
-    padding-top: 40px;
-    margin: 0 auto;
+    
+    padding-top: 100px;
     height: 500px;
     /* justify-content: space-evenly; */
 
@@ -183,7 +184,7 @@ body{
 
 .form-area input:last-child{
     background-color: #FACF10;
-    width: 20%;
+    width: 100%;
     height: 50px;
     font-size: 15px;
     font-weight: 600; 
